@@ -1,0 +1,15 @@
+﻿<h2>Hi {{currentUser.firstName}}!</h2>
+<h3>You're logged in with Star Wars App!!</h3>
+<p><a [routerLink]="['/login']">Logout</a></p>
+<br>
+<div class="ships">
+  <div *ngFor="let item of ships" class="row" class="col-xs-6 col-sm-6 col-md-3">
+    <app-ship [ship]="item"  starship="item"></app-ship>
+  </div>
+  <div class="row">
+    <br>
+    <button *ngIf="showMore" (click)="fetchData(nextPage)" class="btn btn-primary">Más datos</button>
+  </div>
+</div>
+
+

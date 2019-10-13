@@ -9,9 +9,10 @@ import { routing } from './app.routing';
 import { AlertComponent } from './_directives';
 import { AuthGuard } from './_guards';
 import { JwtInterceptor, ErrorInterceptor } from './_helpers';
-import { AlertService, AuthenticationService, UserService } from './_services';
+import { AlertService, AuthenticationService, ShipService, UserService } from './_services';
 import { AppConfig } from './app.config';
-import { HomeComponent } from './home';
+import { ShipsListComponent } from './ships';
+import { ShipComponent } from './ships';
 import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
 
@@ -25,7 +26,8 @@ import { RegisterComponent } from './register';
   declarations: [
     AppComponent,
     AlertComponent,
-    HomeComponent,
+    ShipsListComponent,
+    ShipComponent,
     LoginComponent,
     RegisterComponent
   ],
@@ -35,6 +37,7 @@ import { RegisterComponent } from './register';
     AlertService,
     AuthenticationService,
     UserService,
+    ShipService,
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
     { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true }
   ],
