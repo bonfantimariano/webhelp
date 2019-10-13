@@ -58,7 +58,7 @@ Download or clone the project source code from https://github.com/bonfantimarian
     * Start the api by running npm start from the command line in the project root folder, you should see the message Server listening on port 4000. <pre><code> npm start </code></pre>
 
 * Para instalar frontend:
-    * Install Agular <pre><code> npm install -g @angular/cli </code></pre>
+    * Install Angular <pre><code> npm install -g @angular/cli </code></pre>
     * Install all required npm packages by running npm install from the command line in the project root folder (where the package.json is located). <pre><code> npm install </code></pre> 
 * Para ejecutar frontend:
     * Start the api by running npm start from the command line in the project root folder, you should see the message Server listening on port 4200. <pre><code> npm start </code></pre> 
