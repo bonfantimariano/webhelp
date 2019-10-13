@@ -52,13 +52,13 @@ Download or clone the project source code from https://github.com/bonfantimarian
 - Install NodeJS and NPM from  https://nodejs.org/en/download/.
 - Install MongoDB Community Server from  https://www.mongodb.com/download-center.
 - Run MongoDB, instructions are available on the install page for each OS at https://docs.mongodb.com/manual/administration/install-community/
-* <pre><code> npm install </code></pre> Install all required npm packages by running npm install from the command line in the project root folder (where the package.json is located).
+*  Install all required npm packages by running npm install from the command line in the project root folder (where the package.json is located). <pre><code> npm install </code></pre>
 
 * Para ejecutar backend:
-* <pre><code> npm start </code></pre> Start the api by running npm start from the command line in the project root folder, you should see the message Server listening on port 4000.
+*  Start the api by running npm start from the command line in the project root folder, you should see the message Server listening on port 4000. <pre><code> npm start </code></pre>
 
 * Para instalar frontend:
 * <pre><code> npm install -g @angular/cli </code></pre>
-* <pre><code> npm install </code></pre> Install all required npm packages by running npm install from the command line in the project root folder (where the package.json is located).
+* Install all required npm packages by running npm install from the command line in the project root folder (where the package.json is located). <pre><code> npm install </code></pre> 
 * Para ejecutar frontend:
-* <pre><code> npm start </code></pre> Start the api by running npm start from the command line in the project root folder, you should see the message Server listening on port 4200.
+* Start the api by running npm start from the command line in the project root folder, you should see the message Server listening on port 4200. <pre><code> npm start </code></pre> 
